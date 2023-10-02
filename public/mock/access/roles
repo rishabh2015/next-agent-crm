@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "slug": "tenant_xyz_admin",
+    "name": "Admin",
+    "permissions": [
+      "agent:view",
+      "agent:create",
+      "agent:edit",
+      "agent:export"
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "tenant_xyz_employee",
+    "name": "Employee",
+    "permissions": [
+      "agent:create",
+      "agent:view"
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "tenant_xyz_agent",
+    "name": "Agent",
+    "permissions": [
+      "agent:view"
+    ]
+  }
+]

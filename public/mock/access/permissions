@@ -1,0 +1,72 @@
+[
+  {
+    "key": "agent:view",
+    "moduleName": "Agent",
+    "permissionName": "View"
+  },
+  {
+    "key": "agent:create",
+    "moduleName": "Agent",
+    "permissionName": "Create"
+  },
+  {
+    "key": "agent:edit",
+    "moduleName": "Agent",
+    "permissionName": "Edit"
+  },
+  {
+    "key": "agent:export",
+    "moduleName": "Agent",
+    "permissionName": "Export"
+  },
+  {
+    "key": "task:view",
+    "moduleName": "Tasks",
+    "permissionName": "View"
+  },
+  {
+    "key": "task:create",
+    "moduleName": "Tasks",
+    "permissionName": "Create"
+  },
+  {
+    "key": "task:edit",
+    "moduleName": "Tasks",
+    "permissionName": "Edit"
+  },
+  {
+    "key": "task:export",
+    "moduleName": "Tasks",
+    "permissionName": "Export"
+  },
+  {
+    "key": "task:progress",
+    "moduleName": "Tasks",
+    "permissionName": "Record Progress"
+  },
+  {
+    "key": "agent-tracker:view",
+    "moduleName": "Agent Tracker",
+    "permissionName": "View"
+  },
+  {
+    "key": "contact:view",
+    "moduleName": "Contacts",
+    "permissionName": "View"
+  },
+  {
+    "key": "contact:create",
+    "moduleName": "Contacts",
+    "permissionName": "Create"
+  },
+  {
+    "key": "contact:edit",
+    "moduleName": "Contacts",
+    "permissionName": "Edit"
+  },
+  {
+    "key": "contact:export",
+    "moduleName": "Contacts",
+    "permissionName": "Export"
+  }
+]

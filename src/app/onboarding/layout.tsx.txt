@@ -1,0 +1,2 @@
+import AuthenticationLayout from "@/layouts/authentication";
+export default AuthenticationLayout;

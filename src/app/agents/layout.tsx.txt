@@ -1,0 +1,6 @@
+"use client";
+
+import DashboardLayout from "@/layouts/dashboard";
+export default DashboardLayout;
+
+// export { default } from "@/layouts/dashboard";
