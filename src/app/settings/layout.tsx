@@ -22,8 +22,8 @@ const sidebarNavItems = [
     link: "/settings/roles",
   },
   {
-    title: "Appearance",
-    link: "/settings/appearance",
+    title: "Organization Structure",
+    link: "/settings/organization",
   },
   {
     title: "Notifications",

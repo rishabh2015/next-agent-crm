@@ -1,3 +1,5 @@
+// Account - User
+
 export interface User {
   id: string;
   customId: string;
@@ -9,6 +11,21 @@ export interface User {
 }
 
 export type UserCreationRequest = Omit<User, "id">;
+
+// Contact
+
+export interface Contact {
+  id: string;
+  customId: string;
+  firstName: string;
+  lastName: string;
+  email?: string;
+  phoneCode: string;
+  phoneNo: string;
+  company: string;
+}
+
+export type ContactCreationRequest = Omit<Contact, "id">;
 
 // Access Management
 

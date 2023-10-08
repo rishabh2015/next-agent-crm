@@ -14,10 +14,16 @@ import {
   DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/components/shadcn/ui/dropdown-menu";
+import DataStore from "@/lib/data-store";
 import { useAuth0 } from "@auth0/auth0-react";
 
 export function UserNav() {
   const { user, logout } = useAuth0();
+
+  function handleLogout() {
+    logout();
+    DataStore.clear();
+  }
 
   return (
     <DropdownMenu>
@@ -33,9 +39,7 @@ export function UserNav() {
         <DropdownMenuLabel className="font-normal">
           <div className="flex flex-col space-y-1">
             <p className="text-sm font-medium leading-none">{user?.name}</p>
-            <p className="text-xs leading-none text-muted-foreground">
-              {user?.email}
-            </p>
+            <p className="text-xs leading-none text-muted-foreground">{user?.email}</p>
           </div>
         </DropdownMenuLabel>
         {/*
@@ -57,7 +61,7 @@ export function UserNav() {
         </DropdownMenuGroup>
         */}
         <DropdownMenuSeparator />
-        <DropdownMenuItem onClick={() => logout()}>
+        <DropdownMenuItem onClick={handleLogout}>
           Log out
           {/* <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut> */}
         </DropdownMenuItem>

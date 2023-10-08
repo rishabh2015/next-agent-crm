@@ -6,10 +6,15 @@ import Link from "next/link";
 
 import { Button } from "@/components/shadcn/ui/button";
 import kbIcon from "../../public/konnectbox-icon.svg";
-import { useAuth0 } from "@auth0/auth0-react";
+import { RedirectLoginOptions, useAuth0 } from "@auth0/auth0-react";
 
 export default function AuthenticationLayout(props: React.PropsWithChildren) {
   const { loginWithRedirect } = useAuth0();
+
+  // const options: RedirectLoginOptions = {
+  //   authorizationParams: {
+  //   }
+  // }
 
   return (
     <div className="container relative grid h-screen flex-col items-center justify-center lg:max-w-none lg:grid-cols-2 lg:px-0">
@@ -39,17 +44,14 @@ export default function AuthenticationLayout(props: React.PropsWithChildren) {
         <div className="relative z-20 mt-auto">
           <blockquote className="space-y-2">
             <p className="text-lg">
-              Seamlessly connect your data, teams, and customers on one CRM
-              platform that grows with your business.
+              Seamlessly connect your data, teams, and customers on one CRM platform that grows with your business.
             </p>
             <footer className="text-sm">Konnectbox</footer>
           </blockquote>
         </div>
       </div>
       <div className="lg:p-8">
-        <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
-          {props.children}
-        </div>
+        <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">{props.children}</div>
       </div>
     </div>
   );

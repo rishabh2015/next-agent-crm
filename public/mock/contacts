@@ -1,0 +1,68 @@
+[
+  {
+    "id": "c-id-123",
+    "customId": "C123",
+    "firstName": "Babu",
+    "lastName": "Ram",
+    "email": "ram@gmail.com",
+    "phoneCode": "+91",
+    "phoneNo": "9842190123",
+    "company": "Long Tail",
+    "status": "Active"
+  },
+  {
+    "id": "c-id-124",
+    "customId": "C124",
+    "firstName": "Vahanan",
+    "lastName": "Mayil",
+    "email": "mayil@gmail.com",
+    "phoneCode": "+91",
+    "phoneNo": "9842190124",
+    "company": "Konnectbox",
+    "status": "Active"
+  },
+  {
+    "id": "c-id-125",
+    "customId": "C125",
+    "firstName": "Kumar",
+    "lastName": "Ram",
+    "email": "ram@gmail.com",
+    "phoneCode": "+91",
+    "phoneNo": "9842190125",
+    "company": "Long Tail",
+    "status": "Active"
+  },
+  {
+    "id": "c-id-126",
+    "customId": "C126",
+    "firstName": "",
+    "lastName": "Ramesh",
+    "email": "ramesh@gmail.com",
+    "phoneCode": "+91",
+    "phoneNo": "9842190126",
+    "company": "Konnectbox",
+    "status": "Active"
+  },
+  {
+    "id": "c-id-127",
+    "customId": "C127",
+    "firstName": "Babu",
+    "lastName": "Andro",
+    "email": "andro@gmail.com",
+    "phoneCode": "+91",
+    "phoneNo": "9842190127",
+    "company": "Konnectbox",
+    "status": "Active"
+  },
+  {
+    "id": "c-id-128",
+    "customId": "C128",
+    "firstName": "",
+    "lastName": "Vahanan",
+    "email": "vahanan@gmail.com",
+    "phoneCode": "+91",
+    "phoneNo": "9842190128",
+    "company": "Konnectbox",
+    "status": "Active"
+  }
+]
